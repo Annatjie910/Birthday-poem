@@ -5,8 +5,7 @@ function generatePoem(event) {
     let poemElement = document.querySelector("#poem")
 
 
-      new Typewriter-effect-npm,i 
-      ("#poem", 
+    new Typewriter('#poem', 
         string , "If your hope is strong",
         autoStart , true,
         cursor , "",
@@ -23,5 +22,7 @@ function generatePoem(event) {
 }
 let poemFormElement = document.querySelector("#poem-form");
 poemFormElement.addEventListener("submit", generatePoem);
+
+
 
 
