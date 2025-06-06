@@ -1,15 +1,18 @@
 function generatePoem(event) {
-    event.eventDefalt();
+    event.preventDefault();
     
 
-    let poemElement = document.querySelector("#poem")
+new Typewriter('#test', {
+  strings: "If your hope is strong, you can do anything.",
+  autoStart: true,
+  delay: 1,
+  cursor: "",
 
-    poemElement.innerHTML = "If your hope is strong";
-
+});
 
 
 }
-let poemFormElement = document.querySelector("#poem-form");
+let poemFormElement = document.querySelector("#tets");
 poemFormElement.addEventListener("submit", generatePoem);
 
 
