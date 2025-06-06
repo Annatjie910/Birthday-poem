@@ -4,17 +4,6 @@ function generatePoem(event) {
 
     let poemElement = document.querySelector("#poem")
 
-
-    new Typewriter('#poem', 
-        string , "If your hope is strong",
-        autoStart , true,
-        cursor , "",
-        delay , 1,
-      )
-
-        
-
-
     poemElement.innerHTML = "If your hope is strong";
 
 
